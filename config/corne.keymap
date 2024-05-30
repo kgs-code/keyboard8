@@ -51,7 +51,7 @@
             bindings = <
 &kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7     &kp N8    &kp N9     &kp N0  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &sl 0         &sl 1         &sl 2         &sl 3           &trans    &trans     &trans    &trans     &trans  &trans
+&kp LSHFT   &trans        &sl 0         &sl 1         &to 3         &tog 3          &trans    &trans     &trans    &trans     &trans  &trans
                                         &kp LGUI      &kp SPACE     &trans          &trans    &kp ENTER  &kp RALT
             >;
         };
@@ -74,7 +74,7 @@
         layer_3 {
             bindings = <
 &kp LS(LA(N))  &kp LS(LA(W))  &kp LS(LA(R))  &kp LS(LA(E))  &kp LS(LA(A))  &kp LS(LA(Z))    &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LC(L))  &kp LS(LC(M))  &kp LS(LC(R))  &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LC(L))  &kp LS(LC(M))  &kp LS(LC(R))  &kp LC(B)      &kp LS(LA(S))  &kp LS(LA(P))    &trans  &trans  &trans  &trans  &trans  &trans
 &trans         &trans         &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans
                                              &trans         &trans         &trans           &trans  &trans  &trans
             >;
