@@ -22,6 +22,11 @@
             bindings = <&mo 3>;
             key-positions = <38 29>;
         };
+
+        layer4 {
+            bindings = <&mo 4>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
@@ -52,7 +57,7 @@
             bindings = <
 &kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7     &kp N8    &kp N9     &kp N0  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans        &tog 0        &tog 1        &tog 2        &tog 3          &trans    &trans     &trans    &trans     &trans  &trans
+&kp LSHFT   &bootloader   &tog 0        &tog 1        &tog 2        &tog 3          &trans    &trans     &trans    &trans     &trans  &trans
                                         &kp LGUI      &kp SPACE     &trans          &trans    &kp ENTER  &kp RALT
             >;
         };
@@ -83,10 +88,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans  &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans  &trans  &trans  &bootloader  &trans
+                        &trans  &trans  &trans    &trans       &trans  &trans
             >;
         };
 
