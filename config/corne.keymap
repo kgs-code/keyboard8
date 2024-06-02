@@ -27,6 +27,11 @@
             bindings = <&mo 4>;
             key-positions = <39 40>;
         };
+
+        layer2 {
+            bindings = <&mo 2>;
+            key-positions = <38 28>;
+        };
     };
 
     macros {
@@ -293,10 +298,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE    &kp N1        &kp N2        &kp N3        &symbol_150056  &symbol_pa    &kp N6    &kp N7      &kp N8     &kp N9           &kp N0    &kp BSPC
-&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &to 0         &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tog 2          &tog 3        &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TAB   &kp SCROLLLOCK
-                                         &kp LGUI      &kp SPACE       &trans        &trans    &kp RETURN  &kp RALT
+&kp GRAVE    &kp N1        &kp N2        &kp N3        &symbol_150056  &symbol_pa     &kp N6    &kp N7      &kp N8     &kp N9           &kp N0    &kp BSPC
+&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp C_SLEEP    &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tog 2          &tog 3         &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TAB   &kp SCROLLLOCK
+                                         &kp LGUI      &kp SPACE       &trans         &trans    &kp RETURN  &kp RALT
             >;
         };
 
