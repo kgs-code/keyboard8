@@ -329,7 +329,7 @@
             bindings = <
 &kp LS(LA(N))  &kp LS(LA(W))  &kp LS(LA(R))  &kp LS(LA(E))  &kp LS(LA(A))  &kp LS(LA(Z))    &symbol_1   &symbol_2   &symbol_3   &symbol_4   &symbol_5   &symbol_6
 &kp LS(LC(L))  &kp LS(LC(C))  &kp LS(LC(R))  &kp LC(B)      &kp LS(LA(S))  &kp LS(LA(P))    &symbol_11  &symbol_12  &symbol_7   &symbol8    &symbol_9   &symbol_10
-&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &none          &to 2          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
+&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &tog 1         &to 2          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
                                              &trans         &kp SPACE      &trans           &trans      &kt ENTER   &trans
             >;
         };
