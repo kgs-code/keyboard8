@@ -304,7 +304,7 @@
 
             bindings = <
 &kp GRAVE    &kp N1        &kp N2        &kp N3        &symbol_150056  &symbol_pa     &kp N6    &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp C_SLEEP    &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp K_SLEEP    &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
 &kp LSHFT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tog 2          &tog 3         &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp SCROLLLOCK
                                          &kp LGUI      &kp SPACE       &trans         &trans    &kp RETURN  &kp RALT
             >;
@@ -318,10 +318,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH        &kp DLLR   &kp PRCNT               &kp CARET       &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &trans    &trans  &kp MINUS       &kp EQUAL  &kp NON_US_BACKSLASH    &kp UNDERSCORE  &kp UP      &kp MINUS  &kp LBRC  &kp RBRC  &kp GRAVE
-&kp LSHFT  &trans    &trans  &kp UNDERSCORE  &kp PLUS   &kp PIPE                &kp LEFT        &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
-                             &kp LGUI        &kp SPACE  &trans                  &trans          &kp RETURN  &kp RALT
+&kp TAB    &kp EXCL  &kp AT    &kp HASH        &kp DLLR   &kp PRCNT               &kp CARET       &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &trans    &trans    &kp MINUS       &kp EQUAL  &kp NON_US_BACKSLASH    &kp UNDERSCORE  &kp UP      &kp MINUS  &kp LBRC  &kp RBRC  &kp GRAVE
+&kp LSHFT  &trans    &kp PIPE  &kp UNDERSCORE  &kp PLUS   &tog 3                  &kp LEFT        &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
+                               &kp LGUI        &kp SPACE  &trans                  &trans          &kp RETURN  &kp RALT
             >;
         };
 
@@ -329,7 +329,7 @@
             bindings = <
 &kp LS(LA(N))  &kp LS(LA(W))  &kp LS(LA(R))  &kp LS(LA(E))  &kp LS(LA(A))  &kp LS(LA(Z))    &symbol_1   &symbol_2   &symbol_3   &symbol_4   &symbol_5   &symbol_6
 &kp LS(LC(L))  &kp LS(LC(C))  &kp LS(LC(R))  &kp LC(B)      &kp LS(LA(S))  &kp LS(LA(P))    &symbol_11  &symbol_12  &symbol_7   &symbol8    &symbol_9   &symbol_10
-&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &none          &none          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
+&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &none          &to 2          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
                                              &trans         &kp SPACE      &trans           &trans      &kt ENTER   &trans
             >;
         };
