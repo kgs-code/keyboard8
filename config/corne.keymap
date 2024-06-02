@@ -32,6 +32,11 @@
             bindings = <&mo 2>;
             key-positions = <38 28>;
         };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <24 0>;
+        };
     };
 
     macros {
