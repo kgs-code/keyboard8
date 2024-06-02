@@ -166,7 +166,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp A>,
+                <&kp N2 &kp N7 &kp N3 &kp N1>,
                 <&macro_wait_time 15>,
                 <&kp LA(X)>,
                 <&macro_wait_time 30>;
@@ -178,7 +178,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp B>,
+                <&kp N1 &kp F &kp N7 &kp B &kp N9>,
                 <&macro_wait_time 15>,
                 <&kp LA(X)>,
                 <&macro_wait_time 30>;
