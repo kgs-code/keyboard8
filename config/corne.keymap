@@ -45,7 +45,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N6 &kp N0 &kp N5 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_1";
         };
@@ -55,7 +55,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N6 &kp NUMBER_0 &kp NUMBER_6 &sk LS(LA(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_2";
         };
@@ -65,7 +65,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N8 &kp N0 &kp LS(LA(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_3";
         };
@@ -75,7 +75,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N8 &kp NUMBER_1 &kp LS(LA(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_4";
         };
@@ -85,7 +85,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N8 &kp NUMBER_2 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_5";
         };
@@ -95,7 +95,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N8 &kp NUMBER_3 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_6";
         };
@@ -105,7 +105,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N7 &kp NUMBER_6 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_7";
         };
@@ -115,7 +115,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N7 &kp N8 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_8";
         };
@@ -125,7 +125,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N7 &kp N9 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_9";
         };
@@ -135,7 +135,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp NUMBER_2 &kp NUMBER_1 &kp N9 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_11";
         };
@@ -145,7 +145,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp NUMBER_0 &kp NUMBER_3 &kp B &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_12";
         };
@@ -155,7 +155,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N3 &kp N1 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_13";
         };
@@ -165,7 +165,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N1 &kp F &kp N7 &kp B &kp N9 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_14";
         };
@@ -175,7 +175,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp E &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_15";
         };
@@ -185,7 +185,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp F &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_16";
         };
@@ -195,7 +195,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_0 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_17";
         };
@@ -205,7 +205,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_1 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL_18";
         };
@@ -215,7 +215,7 @@
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N7 &kp N7 &kp NUMBER_7 &kp LA(LS(F10))>,
-                <&macro_wait_time 15>;
+                <&macro_wait_time 30>;
 
             label = "SYMBOL8";
         };
