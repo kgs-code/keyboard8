@@ -44,10 +44,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N6 &kp N0 &kp N5>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N6 &kp N0 &kp N5 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_1";
         };
@@ -56,10 +54,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N6 &kp NUMBER_0 &kp NUMBER_6>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N6 &kp NUMBER_0 &kp NUMBER_6 &sk LS(LA(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_2";
         };
@@ -68,10 +64,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N8 &kp N0>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N8 &kp N0 &kp LS(LA(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_3";
         };
@@ -80,10 +74,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N8 &kp NUMBER_1>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N8 &kp NUMBER_1 &kp LS(LA(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_4";
         };
@@ -92,10 +84,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N8 &kp NUMBER_2>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N8 &kp NUMBER_2 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_5";
         };
@@ -104,10 +94,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N8 &kp NUMBER_3>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N8 &kp NUMBER_3 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_6";
         };
@@ -116,10 +104,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N7 &kp NUMBER_6>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N7 &kp NUMBER_6 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_7";
         };
@@ -128,10 +114,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N7 &kp N8>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N7 &kp N8 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_8";
         };
@@ -140,10 +124,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N7 &kp N9>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N7 &kp N9 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_9";
         };
@@ -152,10 +134,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp NUMBER_2 &kp NUMBER_1 &kp N9>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp NUMBER_2 &kp NUMBER_1 &kp N9 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_11";
         };
@@ -164,10 +144,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp NUMBER_0 &kp NUMBER_3 &kp B>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp NUMBER_0 &kp NUMBER_3 &kp B &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_12";
         };
@@ -176,10 +154,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N3 &kp N1>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N3 &kp N1 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_13";
         };
@@ -188,10 +164,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N1 &kp F &kp N7 &kp B &kp N9>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N1 &kp F &kp N7 &kp B &kp N9 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_14";
         };
@@ -200,10 +174,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp E>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp E &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_15";
         };
@@ -212,10 +184,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp F>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_0 &kp F &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_16";
         };
@@ -224,10 +194,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_0>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_0 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_17";
         };
@@ -236,10 +204,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_1>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp NUMBER_3 &kp NUMBER_0 &kp NUMBER_1 &kp NUMBER_1 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL_18";
         };
@@ -248,10 +214,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp N2 &kp N7 &kp N7 &kp NUMBER_7>,
-                <&macro_wait_time 15>,
-                <&kp LA(X)>,
-                <&macro_wait_time 30>;
+                <&kp N2 &kp N7 &kp N7 &kp NUMBER_7 &kp LA(LS(F10))>,
+                <&macro_wait_time 15>;
 
             label = "SYMBOL8";
         };
@@ -303,10 +267,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE    &kp N1        &kp N2        &kp N3        &symbol_150056  &symbol_pa     &kp N6    &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp K_SLEEP    &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
-&kp LSHFT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tog 2          &tog 3         &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp SCROLLLOCK
-                                         &kp LGUI      &kp SPACE       &trans         &trans    &kp RETURN  &kp RALT
+&kp GRAVE    &kp N1        &kp N2        &kp N3        &symbol_150056  &symbol_pa          &kp N6    &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
+&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp C_SLEEP_MODE    &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&kp LSHFT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tog 2          &tog 3              &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp SCROLLLOCK
+                                         &kp LGUI      &kp SPACE       &trans              &trans    &kp RETURN  &kp RALT
             >;
         };
 
