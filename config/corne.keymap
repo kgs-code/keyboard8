@@ -267,10 +267,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &symbol_150056  &symbol_pa          &kp N6    &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp C_SLEEP_MODE    &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
-&kp LSHFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &tog 2          &tog 3              &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp SCROLLLOCK
-                                         &kp LGUI      &kp SPACE       &trans              &trans    &kp RETURN  &kp RALT
+&kp GRAVE    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &symbol_150056  &symbol_pa    &kp N6    &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
+&bootloader  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp F5        &kp PLUS  &kp UP      &kp MINUS  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&kp LSHFT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &tog 2          &tog 3        &kp LEFT  &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp SCROLLLOCK
+                                         &kp LGUI      &kp SPACE       &trans        &trans    &kp RETURN  &kp RALT
             >;
         };
 
