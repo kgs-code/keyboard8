@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         layer3 {
-            bindings = <&mo 3>;
+            bindings = <&mo 5>;
             key-positions = <37 38>;
         };
 
@@ -31,11 +31,6 @@
         layer2 {
             bindings = <&mo 2>;
             key-positions = <38 28>;
-        };
-
-        tilde {
-            bindings = <&kp TILDE>;
-            key-positions = <24 0>;
         };
     };
 
@@ -282,10 +277,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT    &kp HASH        &kp DLLR   &kp PRCNT               &kp CARET       &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp F5    &trans    &kp MINUS       &kp EQUAL  &kp NON_US_BACKSLASH    &kp UNDERSCORE  &kp UP      &kp MINUS  &kp LBRC  &kp RBRC  &kp F5
-&kp LSHFT  &trans    &kp PIPE  &kp UNDERSCORE  &kp PLUS   &tog 3                  &kp LEFT        &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
-                               &kp LGUI        &kp SPACE  &trans                  &trans          &kp RETURN  &kp RALT
+&kp TAB    &kp EXCL       &kp AT          &kp HASH   &kp DLLR         &kp PRCNT        &kp CARET       &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &kp F5         &kp PLUS        &kp MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp UNDERSCORE  &kp UP      &kp MINUS  &kp LBRC  &kp RBRC  &kp F5
+&kp LSHFT  &kp BACKSLASH  &kp UNDERSCORE  &tog 5     &to 1            &tog 3           &kp LEFT        &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
+                                          &kp LGUI   &kp SPACE        &trans           &trans          &kp RETURN  &kp RALT
             >;
         };
 
@@ -293,7 +288,7 @@
             bindings = <
 &kp LS(LA(N))  &kp LS(LA(W))  &kp LS(LA(R))  &kp LS(LA(E))  &kp LS(LA(A))  &kp LS(LA(Z))    &symbol_1   &symbol_2   &symbol_3   &symbol_4   &symbol_5   &symbol_6
 &kp LS(LC(L))  &kp LS(LC(C))  &kp LS(LC(R))  &kp LC(B)      &kp LS(LA(S))  &kp LS(LA(P))    &symbol_11  &symbol_12  &symbol_7   &symbol8    &symbol_9   &symbol_10
-&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &tog 1         &to 2          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
+&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &to 1          &to 2          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
                                              &trans         &kp SPACE      &trans           &trans      &kt ENTER   &trans
             >;
         };
@@ -309,10 +304,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans    &kp UP    &kp F5       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans    &trans    &trans       &trans  &trans  &trans
             >;
         };
     };
