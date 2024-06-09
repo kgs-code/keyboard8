@@ -306,7 +306,7 @@
             bindings = <
 &trans  &trans  &trans  &trans    &trans    &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans    &kp UP    &kp F5       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &to 4   &to 0   &kp LEFT  &kp DOWN  &kp RIGHT    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans    &trans    &trans       &trans  &trans  &trans
             >;
         };
