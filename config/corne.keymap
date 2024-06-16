@@ -284,7 +284,7 @@
             bindings = <
 &kp TAB    &kp EXCL       &kp AT    &kp HASH   &kp DLLR         &kp PRCNT        &kp CARET       &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &kp F5         &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp KP_DIVIDE    &kp UNDERSCORE  &kp UP      &kp MINUS  &kp LBRC  &kp RBRC  &kp F5
-&kp LSHFT  &kp BACKSLASH  &to 5     &tog 1     &to 2            &tog 3           &kp LEFT        &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
+&kp LSHFT  &kp BACKSLASH  &to 5     &to 1      &to 2            &tog 3           &kp LEFT        &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
                                     &kp LGUI   &kp SPACE        &trans           &trans          &kp RETURN  &kp RALT
             >;
         };
