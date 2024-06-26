@@ -274,7 +274,10 @@
         symbol_1p: symbol_1p {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(D) &kp LS(L) &kp LS(G) &kp LS(U) &kp LS(S) &kp D &kp I &kp D &kp N5 &kp N6 &kp CARET>;
+            bindings =
+                <&none &kp LS(D) &kp LS(L) &kp LS(G) &kp LS(U) &kp LS(S) &kp D &kp I &kp D &kp N5 &kp N6 &kp CARET>,
+                <&macro_wait_time 30>;
+
             label = "SYMBOL_1P";
         };
     };
