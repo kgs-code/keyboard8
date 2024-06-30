@@ -16,7 +16,7 @@
 
         default {
             bindings = <&to 0>;
-            key-positions = <37 38>;
+            key-positions = <38 37 36>;
         };
 
         layer4 {
@@ -26,7 +26,17 @@
 
         layer6 {
             bindings = <&to 6>;
-            key-positions = <37 38 36>;
+            key-positions = <37 38>;
+        };
+
+        layer_3 {
+            bindings = <&to 3>;
+            key-positions = <36 38>;
+        };
+
+        layer_5 {
+            bindings = <&to 5>;
+            key-positions = <40 41>;
         };
     };
 
