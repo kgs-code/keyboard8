@@ -24,8 +24,8 @@
             key-positions = <39 40>;
         };
 
-        layer6 {
-            bindings = <&to 6>;
+        layer_1 {
+            bindings = <&to 1>;
             key-positions = <37 38>;
         };
 
@@ -37,6 +37,16 @@
         layer_5 {
             bindings = <&to 5>;
             key-positions = <40 41>;
+        };
+
+        combo_2 {
+            bindings = <&to 2>;
+            key-positions = <37 36>;
+        };
+
+        layer_6 {
+            bindings = <&to 6>;
+            key-positions = <39 41>;
         };
     };
 
