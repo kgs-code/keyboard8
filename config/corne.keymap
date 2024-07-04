@@ -24,8 +24,8 @@
             key-positions = <39 40>;
         };
 
-        layer_6-1 {
-            bindings = <&to 6>;
+        layer_1 {
+            bindings = <&to 1>;
             key-positions = <37 38>;
         };
 
@@ -324,7 +324,7 @@
             bindings = <
 &kp LG(LS(S))  &symbol_201502  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS       &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
 &trans         &symbol_home    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
-&kp LWIN       &mail           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
+&kp LWIN       &mail           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &tog 6          &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
                                              &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
             >;
         };
@@ -348,7 +348,7 @@
             bindings = <
 &kp LS(LA(N))  &kp LS(LA(W))  &kp LS(LA(R))  &kp LS(LA(E))  &kp LS(LA(A))  &kp LS(LA(Z))    &symbol_1   &symbol_2   &symbol_3   &symbol_4   &symbol_5   &symbol_6
 &kp LS(LC(L))  &kp LS(LC(C))  &kp LS(LC(R))  &kp LC(B)      &kp LS(LA(S))  &kp LS(LA(P))    &symbol_11  &symbol_12  &symbol_7   &symbol8    &symbol_9   &symbol_10
-&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &kp F5         &trans         &trans           &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
+&kp LC(Z)      &kp LC(LS(Z))  &kp LA(C)      &kp F5         &to 2          &to 0            &symbol_13  &symbol_14  &symbol_15  &symbol_16  &symbol_17  &symbol_18
                                              &trans         &kp SPACE      &trans           &trans      &kt ENTER   &trans
             >;
         };
