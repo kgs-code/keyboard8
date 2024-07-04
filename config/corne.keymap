@@ -24,7 +24,7 @@
             key-positions = <39 40>;
         };
 
-        layer_66 {
+        layer_6-1 {
             bindings = <&to 6>;
             key-positions = <37 38>;
         };
@@ -365,7 +365,7 @@
         layer_5 {
             bindings = <
 &trans  &trans  &trans  &symbol_1p  &symbol_home  &out OUT_TOG    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &kp UP        &out OUT_USB    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &kp UP        &kp F5          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &to 4   &to 0   &kp LEFT    &kp DOWN      &kp RIGHT       &trans  &trans  &trans  &trans  &trans  &trans
                         &trans      &trans        &trans          &trans  &trans  &trans
             >;
