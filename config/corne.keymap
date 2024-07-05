@@ -365,10 +365,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &symbol_1p  &symbol_home  &out OUT_TOG        &trans            &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &kp UP        &ext_power EP_ON    &ext_power EP_ON  &trans  &trans  &trans  &trans  &trans
-&trans  &to 4   &to 0   &kp LEFT    &kp DOWN      &kp RIGHT           &trans            &trans  &trans  &trans  &trans  &trans
-                        &trans      &trans        &trans              &trans            &trans  &trans
+&trans  &trans  &trans  &symbol_1p         &symbol_home  &out OUT_TOG        &trans            &trans             &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &ext_power EP_OFF  &kp UP        &ext_power EP_ON    &ext_power EP_ON  &ext_power EP_OFF  &trans  &trans  &trans  &trans
+&trans  &to 4   &to 0   &kp LEFT           &kp DOWN      &kp RIGHT           &trans            &trans             &trans  &trans  &trans  &trans
+                        &trans             &trans        &trans              &trans            &trans             &trans
             >;
         };
 
