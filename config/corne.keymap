@@ -48,6 +48,11 @@
             bindings = <&to 6>;
             key-positions = <39 41>;
         };
+
+        layer_00 {
+            bindings = <&none>;
+            key-positions = <40 41 39>;
+        };
     };
 
     macros {
@@ -355,10 +360,10 @@
 
         layer_4 {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans       &trans  &trans  &trans  &trans       &trans
-&bt BT_CLR  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans       &trans  &trans  &trans  &trans       &trans
-&trans      &trans         &to 1          &to 2          &to 3          &to 0            &bootloader  &trans  &trans  &trans  &bootloader  &trans
-                                          &trans         &trans         &trans           &trans       &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans           &trans             &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kt C_VOLUME_UP  &kt C_VOLUME_DOWN  &trans  &trans  &trans  &trans
+&trans      &trans         &to 1          &to 2          &to 3          &to 0            &trans           &trans             &trans  &trans  &trans  &trans
+                                          &trans         &trans         &trans           &trans           &trans             &trans
             >;
         };
 
