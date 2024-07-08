@@ -20,7 +20,7 @@
         };
 
         layer4 {
-            bindings = <&mo 4>;
+            bindings = <&to 4>;
             key-positions = <39 40>;
         };
 
@@ -50,7 +50,7 @@
         };
 
         layer_00 {
-            bindings = <&none>;
+            bindings = <&to 0>;
             key-positions = <40 41 39>;
         };
     };
