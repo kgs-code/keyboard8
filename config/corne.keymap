@@ -236,17 +236,15 @@
             label = "SYMBOL8";
         };
 
-        symbol_201502: symbol_150056 {
+        symbol_201502: symbol_201502 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&kp N2 &kp N0 &kp N1 &kp N5 &kp N0 &kp N2>,
                 <&macro_wait_time 30>;
-
-            label = "SYMBOL_150056";
         };
 
-        symbol_home: symbol_pa {
+        symbol_home: symbol_home {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -255,7 +253,7 @@
                 <&to 0>,
                 <&macro_wait_time 30>;
 
-            label = "SYMBOL_PA";
+            label = "SYMBOL_HOME";
         };
 
         mail: mail {
@@ -327,10 +325,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(LS(S))  &symbol_201502  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS       &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&out OUT_TOG   &symbol_home    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD      &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
-&kp LWIN       &mail           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
-                                             &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
+&kp LG(LS(S))  &a150056  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS       &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
+&out OUT_TOG   &work     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD      &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&kp LWIN       &mail     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0    &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
+                                       &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
             >;
         };
 
