@@ -328,7 +328,7 @@
 
             bindings = <
 &kp LG(LS(S))  &symbol_201502  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS       &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&trans         &symbol_home    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&out OUT_TOG   &symbol_home    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
 &kp LWIN       &mail           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
                                              &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
             >;
