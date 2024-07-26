@@ -20,7 +20,7 @@
         };
 
         layer4 {
-            bindings = <&to 4>;
+            bindings = <&to 2>;
             key-positions = <39 40>;
         };
 
@@ -35,7 +35,7 @@
         };
 
         layer_5 {
-            bindings = <&to 5>;
+            bindings = <&out OUT_TOG>;
             key-positions = <40 41>;
         };
 
@@ -45,7 +45,7 @@
         };
 
         layer_6 {
-            bindings = <&to 6>;
+            bindings = <&symbol_1p>;
             key-positions = <39 41>;
         };
 
