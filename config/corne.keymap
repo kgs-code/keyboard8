@@ -145,6 +145,13 @@
             tapping-term-ms = <180>;
             bindings = <&kp ESCAPE>, <&kp TILDE>;
         };
+
+        tdDA: tap_dance_DA {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <180>;
+            bindings = <&kp MINUS>, <&kp UNDER>;
+        };
     };
 
 / {
