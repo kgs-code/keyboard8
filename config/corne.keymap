@@ -466,10 +466,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(LS(S))  &symbol_home  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tdDA           &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&out OUT_TOG   &symbol_1p    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
-&kt LEFT_ALT   &mail         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
-                                           &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
+&kp LG(LS(LA(NUMBER_4)))  &symbol_home  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tdDA           &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
+&out OUT_TOG              &symbol_1p    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&kt LEFT_ALT              &mail         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
+                                                      &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
             >;
         };
 
