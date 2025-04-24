@@ -451,10 +451,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB              &tdQ   &tdW   &tdE      &tdR       &tdT     &kp Y  &kp U       &kp I               &tdO     &tdP      &kp BSPC
-&kp LCTRL            &kp A  &kp S  &kp D     &kp F      &kp G    &kp H  &kp J       &kp K               &kp L    &kp SEMI  &kp ENTER
-&mt LEFT_SHIFT CLCK  &kp Z  &kp X  &kp C     &kp V      &kp B    &kp N  &kp M       &kp COMMA           &kp DOT  &tdSL     &kp ESC
-                                   &kp LCMD  &kp SPACE  &mo 1    &mo 2  &kp RETURN  &mt RIGHT_ALT CAPS
+&kp TAB              &tdQ   &tdW   &tdE      &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
+&kp LCTRL            &kp A  &kp S  &kp D     &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
+&mt LEFT_SHIFT CLCK  &kp Z  &kp X  &kp C     &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
+                                   &kp LCMD  &kp SPACE  &mo 1    &mo 2  &kp RETURN  &mt RIGHT_COMMAND CAPS
             >;
         };
 
