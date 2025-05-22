@@ -451,10 +451,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB              &tdQ   &tdW   &tdE      &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
-&kp LCTRL            &kp A  &kp S  &kp D     &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
-&mt LEFT_SHIFT CLCK  &kp Z  &kp X  &kp C     &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
-                                   &kp LCMD  &kp SPACE  &mo 1    &mo 2  &kp RETURN  &mt RIGHT_COMMAND CAPS
+&kp TAB             &tdQ   &tdW   &tdE      &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
+&mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D     &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C     &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
+                                  &kp LCMD  &kp SPACE  &mo 1    &mo 2  &kp RETURN  &mt RIGHT_COMMAND CAPS
             >;
         };
 
@@ -466,9 +466,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LG(LS(LC(NUMBER_4)))  &symbol_home  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tdDA           &kp N6     &kp N7      &kp N8     &kp N9           &kp N0     &kp BSPC
-&out OUT_TOG              &symbol_1p    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp UP      &kp PLUS   &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
-&kt LEFT_ALT              &mail         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp LEFT   &kp DOWN    &kp RIGHT  &kp KP_DIVIDE    &kp TILDE  &kp GRAVE
+&kp LG(LS(LC(NUMBER_4)))  &symbol_home  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &tdDA           &kp N6     &kp N7      &kp N8        &kp N9           &kp N0     &kp BSPC
+&out OUT_TOG              &symbol_1p    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0    &kp MINUS  &kp PLUS    &kp UP_ARROW  &kp KP_MULTIPLY  &kp SEMI   &kp SINGLE_QUOTE
+&kt LEFT_ALT              &mail         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp SLASH  &kp LEFT    &kp DOWN      &kp RIGHT        &kp TILDE  &kp GRAVE
                                                       &kp LCTRL     &kp SPACE     &trans          &trans     &kp RETURN  &kp RALT
             >;
         };
@@ -481,10 +481,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL         &kp AT         &kp HASH        &kp DLLR        &kp PRCNT          &kp CARET  &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp PLUS         &kp MINUS      &kp EQUAL       &kp UP_ARROW    &kp UNDER          &kp MINUS  &kp UP      &kp EQUAL  &kp LBRC  &kp RBRC  &kp SINGLE_QUOTE
-&kp LSHFT  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LEFT   &kp DOWN    &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
-                                           &kp LCTRL       &kp SPACE       &trans             &trans     &kp RETURN  &kp RALT
+&kp TAB    &kp EXCL         &kp AT         &kp HASH        &kp DLLR        &kp PRCNT          &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LCTRL  &kp PLUS         &kp MINUS      &kp EQUAL       &kp UP_ARROW    &kp UNDER          &kp MINUS  &kp UP_ARROW  &kp EQUAL  &kp LBRC  &kp RBRC  &kp SINGLE_QUOTE
+&kp LSHFT  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT  &kp RBKT  &kp TILDE
+                                           &kp LCTRL       &kp SPACE       &trans             &trans     &kp RETURN    &kp RALT
             >;
         };
 
