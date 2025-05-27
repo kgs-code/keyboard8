@@ -161,17 +161,17 @@
         };
 
         layer4 {
-            bindings = <&to 2>;
+            bindings = <&to 3>;
             key-positions = <39 40>;
         };
 
         layer_66 {
-            bindings = <&to 6>;
+            bindings = <&to 7>;
             key-positions = <37 38>;
         };
 
         layer_3 {
-            bindings = <&to 3>;
+            bindings = <&to 4>;
             key-positions = <36 38>;
         };
 
@@ -181,7 +181,7 @@
         };
 
         combo_2 {
-            bindings = <&to 2>;
+            bindings = <&to 3>;
             key-positions = <37 36>;
         };
 
@@ -454,7 +454,16 @@
 &kp TAB             &tdQ   &tdW   &tdE      &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
 &mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D     &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
 &kp LEFT_SHIFT      &kp Z  &kp X  &kp C     &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
-                                  &kp LCMD  &kp SPACE  &mo 1    &mo 2  &kp RETURN  &mt RIGHT_COMMAND CAPS
+                                  &kp LCMD  &kp SPACE  &mo 2    &mo 3  &kp RETURN  &mt RIGHT_COMMAND CAPS
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&kp TAB             &tdQ   &tdW   &tdE              &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
+&mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
+                                  &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp RETURN  &mt RIGHT_COMMAND CAPS
             >;
         };
 
@@ -488,7 +497,7 @@
             >;
         };
 
-        layer_3 {
+        layer_4 {
             bindings = <
 &kp LS(LA(N))  &kp LS(LA(W))  &kp LS(LA(R))  &kp LS(LA(E))  &kp LS(LA(A))  &kp LS(LA(Z))    &symbol_1   &symbol_2   &symbol_3   &symbol_4   &symbol_5   &symbol_6
 &kp LS(LC(L))  &kp LS(LC(C))  &kp LS(LC(R))  &kp LC(B)      &kp LS(LA(S))  &kp LS(LA(P))    &symbol_11  &symbol_12  &symbol_7   &symbol8    &symbol_9   &symbol_10
@@ -497,39 +506,30 @@
             >;
         };
 
-        layer_4 {
+        layer_5 {
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans           &trans             &trans  &trans  &trans  &trans
 &bt BT_CLR  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &kt C_VOLUME_UP  &kt C_VOLUME_DOWN  &trans  &trans  &trans  &trans
-&trans      &trans         &to 1          &to 2          &to 3          &to 0            &trans           &trans             &trans  &trans  &trans  &trans
+&trans      &trans         &to 2          &to 3          &to 4          &to 0            &trans           &trans             &trans  &trans  &trans  &trans
                                           &trans         &trans         &trans           &trans           &trans             &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &symbol_1p    &symbol_home  &out OUT_TOG    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &none   &out OUT_BLE  &kp UP        &out OUT_USB    &none   &none   &trans  &trans  &trans  &trans
-&trans  &to 4   &to 0   &kp LEFT      &kp DOWN      &kp RIGHT       &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&tog 7  &to 5   &to 4   &to 3   &to 2   &to 1     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &symbol_1p    &symbol_home  &out OUT_TOG    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &none   &out OUT_BLE  &kp UP        &out OUT_USB    &none   &none   &trans  &trans  &trans  &trans
+&trans  &to 5   &to 0   &kp LEFT      &kp DOWN      &kp RIGHT       &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
 
         layer_7 {
             bindings = <
-&kp TAB             &tdQ   &tdW   &tdE              &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
-&mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
-                                  &kp LEFT_CONTROL  &kp SPACE  &mo 1    &mo 2  &kp RETURN  &mt RIGHT_COMMAND CAPS
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&tog 1  &to 6   &to 5   &to 4   &to 3   &to 2     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
