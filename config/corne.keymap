@@ -458,7 +458,7 @@
             >;
         };
 
-        layer_7 {
+        layer_1 {
             bindings = <
 &kp TAB             &tdQ   &tdW   &tdE              &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
 &mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
