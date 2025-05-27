@@ -194,6 +194,16 @@
             bindings = <&to 0>;
             key-positions = <40 41 39>;
         };
+
+        WIN {
+            bindings = <&tog 1>;
+            key-positions = <0 38 39>;
+        };
+
+        MAC {
+            bindings = <&tog 0>;
+            key-positions = <11 39 38>;
+        };
     };
 
     macros {
