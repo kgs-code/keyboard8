@@ -197,12 +197,12 @@
 
         WIN {
             bindings = <&tog 1>;
-            key-positions = <0 38 39>;
+            key-positions = <0 36 37>;
         };
 
         MAC {
             bindings = <&tog 0>;
-            key-positions = <11 39 38>;
+            key-positions = <37 36 12>;
         };
     };
 
