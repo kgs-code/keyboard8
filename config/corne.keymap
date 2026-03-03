@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
- 
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -470,9 +470,9 @@
 
         layer_1 {
             bindings = <
-&kp TAB             &tdQ   &tdW   &tdE              &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
-&mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
+&kp TAB             &tdQ   &tdW   &tdE              &tdR       &tdT     &kp Y  &kp U       &kp I      &tdO     &tdP      &kp BSPC
+&mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J       &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M       &kp COMMA  &kp DOT  &tdSL     &kp ESC
                                   &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp RETURN  &kp RALT
             >;
         };
@@ -537,7 +537,7 @@
         layer_7 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&tog 1  &to 6   &to 5   &to 4   &to 3   &to 2     &trans  &trans  &trans  &trans  &trans  &trans
+&tog 1  &to 6   &to 5   &to 4   &to 3   &to 2     &trans  &kp A   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
