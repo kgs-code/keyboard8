@@ -473,7 +473,7 @@
 &kp TAB             &tdQ   &tdW   &tdE              &tdR       &tdT     &kp Y  &kp U       &kp I                   &tdO     &tdP      &kp BSPC
 &mt LCTRL CAPSLOCK  &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J       &kp K                   &kp L    &kp SEMI  &kp ENTER
 &kp LEFT_SHIFT      &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M       &kp COMMA               &kp DOT  &tdSL     &kp ESC
-                                  &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp RETURN  &mt RIGHT_COMMAND CAPS
+                                  &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp RETURN  &kp RALT
             >;
         };
 
